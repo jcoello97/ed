@@ -6,7 +6,7 @@ Instalar git:
 Creamos un repositorio en github:
 Clonamos el repositorio de github:
 
-    4  git clone https://github.com/susanajimenez15/ed.git
+    4  git clone https://github.com/jcoello/ed.git
    
 
    10  gedit hola-mundo-git.txt
@@ -14,15 +14,15 @@ Clonamos el repositorio de github:
    11  git status
  
    
-   14  git config --global user.name susanajimenez15
-   15  git config --global user.mail dam.sjimenez@institutoserpis.org
+   14  git config --global user.name jcoello
+   15  git config --global user.mail dam.jcoello@institutoserpis.org
    16  git config --list
    17  git commit -n "Hola mundo desde git"
    18  git push
    
    32  git --list
-   33  git config --global user.name susanajimenez15
-   34  git config --global user.email dam.sjimenez@institutoserpis.org
+   33  git config --global user.name jcoello
+   34  git config --global user.email dam.jcoello@institutoserpis.org
    35  git commit -m "Hola mundo desde git"
 	git push
    39  git checkout master
