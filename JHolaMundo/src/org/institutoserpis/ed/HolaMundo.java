@@ -10,7 +10,7 @@ public class HolaMundo
 		Scanner entrada = new Scanner(System.in);
 		String nombre;
 		nombre = entrada.next();
-		System.out.printf("¡Hola %s desde eclipse!", nombre);
+		System.out.printf("¡Hola %s, estamos desde eclipse!", nombre);
 	
 	}
 	
