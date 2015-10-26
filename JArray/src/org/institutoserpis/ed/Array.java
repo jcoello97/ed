@@ -9,16 +9,16 @@ public class Array
 
 	public static void main(String[] args) 
 	{
-		int[] vector = new int[]{5, 9, 7, 12, 21};
+		int[] v = new int[]{5, 9, 7, 12, 21};
 		
-		for(int index = 0; index < vector.length; index++)
-			System.out.println("Elemento con index="+index+" vale "+vector[index]);
+		for(int index = 0; index < v.length; index++)
+			System.out.println("Elemento con index="+index+" vale "+v[index]);
 		
 		
-		System.out.println("suma del array "+ suma(vector));
+		System.out.println("suma del array "+ suma(v));
 		System.out.println("suma del array "+ suma(new int[]{20,15}));
 		System.out.println("suma del array "+ suma(new int[]{}));
-		System.out.println("el valor menor de v es: "+ menor(vector));
+		System.out.println("el valor menor de v es: "+ menor(v));
 	}
 
 	public static int suma(int[] v)
@@ -37,6 +37,19 @@ public class Array
 			if(v[index]<menor)
 				menor= v[index];				
 		return menor;
+	}
+	
+	public static int indexOf(int[] v, int item)
+	{
+		int index=0;
+		while(index<v.length && v[index]!=item)
+			index++;
+		
+		if(index==v.length)	//Index ha llegado al maximo de v.length y no ha enocntrado el valor.
+			return -1;	//por convenio se pone -1 cuando no encuentra el valor en el array.
+		else
+			return index;	//si no es asi, es xk se ha encontrado el valor dentro de v.length
+							//Y se devuelve index con ese respectivo valor dentro de v.length
 	}
 
 }
