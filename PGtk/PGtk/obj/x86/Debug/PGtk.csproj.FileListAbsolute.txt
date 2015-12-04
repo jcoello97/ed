@@ -1,0 +1,5 @@
+C:\Users\Jorge\Downloads\ed-master\PGtk\PGtk\bin\Debug\PGtk.exe
+C:\Users\Jorge\Downloads\ed-master\PGtk\PGtk\bin\Debug\PGtk.pdb
+C:\Users\Jorge\Downloads\ed-master\PGtk\PGtk\obj\x86\Debug\PGtk.csprojResolveAssemblyReference.cache
+C:\Users\Jorge\Downloads\ed-master\PGtk\PGtk\obj\x86\Debug\PGtk.exe
+C:\Users\Jorge\Downloads\ed-master\PGtk\PGtk\obj\x86\Debug\PGtk.pdb

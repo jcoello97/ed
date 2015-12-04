@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PGtk", "PGtk\PGtk.csproj", "{0694B4B0-C0E3-4E95-B72B-C21A59B9FBD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0694B4B0-C0E3-4E95-B72B-C21A59B9FBD9}.Debug|x86.ActiveCfg = Debug|x86
+		{0694B4B0-C0E3-4E95-B72B-C21A59B9FBD9}.Debug|x86.Build.0 = Debug|x86
+		{0694B4B0-C0E3-4E95-B72B-C21A59B9FBD9}.Release|x86.ActiveCfg = Release|x86
+		{0694B4B0-C0E3-4E95-B72B-C21A59B9FBD9}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
