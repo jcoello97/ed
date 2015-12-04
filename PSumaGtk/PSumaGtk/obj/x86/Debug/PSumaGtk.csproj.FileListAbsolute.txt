@@ -1,0 +1,5 @@
+C:\Users\Jorge\Downloads\ed-master\PSumaGtk\PSumaGtk\bin\Debug\PSumaGtk.exe
+C:\Users\Jorge\Downloads\ed-master\PSumaGtk\PSumaGtk\bin\Debug\PSumaGtk.pdb
+C:\Users\Jorge\Downloads\ed-master\PSumaGtk\PSumaGtk\obj\x86\Debug\PSumaGtk.csprojResolveAssemblyReference.cache
+C:\Users\Jorge\Downloads\ed-master\PSumaGtk\PSumaGtk\obj\x86\Debug\PSumaGtk.exe
+C:\Users\Jorge\Downloads\ed-master\PSumaGtk\PSumaGtk\obj\x86\Debug\PSumaGtk.pdb
