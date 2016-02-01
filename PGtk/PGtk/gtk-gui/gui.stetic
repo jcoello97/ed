@@ -2,13 +2,20 @@
 <stetic-interface>
   <configuration>
     <images-root-path>..</images-root-path>
+<<<<<<< HEAD
     <target-gtk-version>2.12</target-gtk-version>
+=======
+>>>>>>> a28a14d6b0af41a5511774f9b914dccd45c9e46b
   </configuration>
   <import>
     <widget-library name="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
     <widget-library name="../bin/Debug/PGtk.exe" internal="true" />
   </import>
+<<<<<<< HEAD
   <widget class="Gtk.Window" id="MainWindow" design-size="425 300">
+=======
+  <widget class="Gtk.Window" id="MainWindow" design-size="400 300">
+>>>>>>> a28a14d6b0af41a5511774f9b914dccd45c9e46b
     <property name="MemberName" />
     <property name="Title" translatable="yes">MainWindow</property>
     <property name="WindowPosition">CenterOnParent</property>
@@ -24,21 +31,37 @@
             <child>
               <widget class="Gtk.Label" id="label1">
                 <property name="MemberName" />
+<<<<<<< HEAD
                 <property name="LabelProp" translatable="yes">Introduzca su nombre: </property>
               </widget>
               <packing>
                 <property name="Position">0</property>
                 <property name="AutoSize">False</property>
+=======
+                <property name="LabelProp" translatable="yes">Introduce texto:</property>
+              </widget>
+              <packing>
+                <property name="Position">0</property>
+                <property name="AutoSize">True</property>
+>>>>>>> a28a14d6b0af41a5511774f9b914dccd45c9e46b
                 <property name="Expand">False</property>
                 <property name="Fill">False</property>
               </packing>
             </child>
             <child>
+<<<<<<< HEAD
               <widget class="Gtk.Entry" id="entryNombre">
                 <property name="MemberName" />
                 <property name="CanFocus">True</property>
                 <property name="IsEditable">True</property>
                 <property name="InvisibleChar">•</property>
+=======
+              <widget class="Gtk.Entry" id="entryNom">
+                <property name="MemberName" />
+                <property name="CanFocus">True</property>
+                <property name="IsEditable">True</property>
+                <property name="InvisibleChar">●</property>
+>>>>>>> a28a14d6b0af41a5511774f9b914dccd45c9e46b
               </widget>
               <packing>
                 <property name="Position">1</property>
@@ -46,13 +69,21 @@
               </packing>
             </child>
             <child>
+<<<<<<< HEAD
               <widget class="Gtk.Button" id="buttonAplicar">
+=======
+              <widget class="Gtk.Button" id="buttonApply">
+>>>>>>> a28a14d6b0af41a5511774f9b914dccd45c9e46b
                 <property name="MemberName" />
                 <property name="CanFocus">True</property>
                 <property name="UseStock">True</property>
                 <property name="Type">StockItem</property>
                 <property name="StockId">gtk-apply</property>
+<<<<<<< HEAD
                 <signal name="Clicked" handler="OnButton1Clicked" />
+=======
+                <signal name="Clicked" handler="OnButtonApplyClicked" />
+>>>>>>> a28a14d6b0af41a5511774f9b914dccd45c9e46b
                 <property name="label">gtk-apply</property>
               </widget>
               <packing>
@@ -71,9 +102,15 @@
           </packing>
         </child>
         <child>
+<<<<<<< HEAD
           <widget class="Gtk.Label" id="labelSaludo">
             <property name="MemberName" />
             <property name="LabelProp" translatable="yes">Buenos dias</property>
+=======
+          <widget class="Gtk.Label" id="labelSaludoFinal">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">Hola Mundo</property>
+>>>>>>> a28a14d6b0af41a5511774f9b914dccd45c9e46b
           </widget>
           <packing>
             <property name="Position">1</property>

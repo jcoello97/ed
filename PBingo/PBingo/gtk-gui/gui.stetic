@@ -2,7 +2,10 @@
 <stetic-interface>
   <configuration>
     <images-root-path>..</images-root-path>
+<<<<<<< HEAD
     <target-gtk-version>2.12</target-gtk-version>
+=======
+>>>>>>> a28a14d6b0af41a5511774f9b914dccd45c9e46b
   </configuration>
   <import>
     <widget-library name="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
@@ -14,6 +17,7 @@
     <property name="WindowPosition">CenterOnParent</property>
     <signal name="DeleteEvent" handler="OnDeleteEvent" />
     <child>
+<<<<<<< HEAD
       <widget class="Gtk.VBox" id="vbox1">
         <property name="MemberName" />
         <property name="Spacing">6</property>
@@ -25,15 +29,37 @@
               <widget class="Gtk.Label" id="label1">
                 <property name="MemberName" />
                 <property name="Xalign">0</property>
+=======
+      <widget class="Gtk.VBox" id="vbox3">
+        <property name="MemberName" />
+        <property name="Spacing">6</property>
+        <child>
+          <widget class="Gtk.HBox" id="hbox10">
+            <property name="MemberName" />
+            <property name="Spacing">6</property>
+            <child>
+              <widget class="Gtk.Label" id="labelIntro">
+                <property name="MemberName" />
+>>>>>>> a28a14d6b0af41a5511774f9b914dccd45c9e46b
                 <property name="LabelProp" translatable="yes">Numero: </property>
               </widget>
               <packing>
                 <property name="Position">0</property>
+<<<<<<< HEAD
                 <property name="AutoSize">False</property>
               </packing>
             </child>
             <child>
               <widget class="Gtk.Label" id="label2">
+=======
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Label" id="labelNum">
+>>>>>>> a28a14d6b0af41a5511774f9b914dccd45c9e46b
                 <property name="MemberName" />
               </widget>
               <packing>
@@ -43,7 +69,11 @@
               </packing>
             </child>
             <child>
+<<<<<<< HEAD
               <widget class="Gtk.Button" id="button1">
+=======
+              <widget class="Gtk.Button" id="buttonNum">
+>>>>>>> a28a14d6b0af41a5511774f9b914dccd45c9e46b
                 <property name="MemberName" />
                 <property name="CanFocus">True</property>
                 <property name="UseStock">True</property>
@@ -53,19 +83,30 @@
               </widget>
               <packing>
                 <property name="Position">2</property>
+<<<<<<< HEAD
                 <property name="AutoSize">False</property>
                 <property name="Expand">False</property>
+=======
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+>>>>>>> a28a14d6b0af41a5511774f9b914dccd45c9e46b
               </packing>
             </child>
           </widget>
           <packing>
             <property name="Position">0</property>
+<<<<<<< HEAD
             <property name="AutoSize">False</property>
+=======
+            <property name="AutoSize">True</property>
+>>>>>>> a28a14d6b0af41a5511774f9b914dccd45c9e46b
             <property name="Expand">False</property>
             <property name="Fill">False</property>
           </packing>
         </child>
         <child>
+<<<<<<< HEAD
           <widget class="Gtk.Button" id="button2">
             <property name="MemberName" />
             <property name="CanFocus">True</property>
@@ -79,6 +120,9 @@
             <property name="Expand">False</property>
             <property name="Fill">False</property>
           </packing>
+=======
+          <placeholder />
+>>>>>>> a28a14d6b0af41a5511774f9b914dccd45c9e46b
         </child>
         <child>
           <placeholder />

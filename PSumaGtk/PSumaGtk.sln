@@ -1,7 +1,13 @@
 ﻿
+<<<<<<< HEAD
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSumaGtk", "PSumaGtk\PSumaGtk.csproj", "{1FF0954C-C51A-40F3-9DAA-BF5C48FEB57E}"
+=======
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSumaGtk", "PSumaGtk\PSumaGtk.csproj", "{E87B082E-B0AD-4ABE-A228-4C5287F0BD34}"
+>>>>>>> a28a14d6b0af41a5511774f9b914dccd45c9e46b
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,6 +15,7 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+<<<<<<< HEAD
 		{1FF0954C-C51A-40F3-9DAA-BF5C48FEB57E}.Debug|x86.ActiveCfg = Debug|x86
 		{1FF0954C-C51A-40F3-9DAA-BF5C48FEB57E}.Debug|x86.Build.0 = Debug|x86
 		{1FF0954C-C51A-40F3-9DAA-BF5C48FEB57E}.Release|x86.ActiveCfg = Release|x86
@@ -16,5 +23,11 @@ Global
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = PSumaGtk\PSumaGtk.csproj
+=======
+		{E87B082E-B0AD-4ABE-A228-4C5287F0BD34}.Debug|x86.ActiveCfg = Debug|x86
+		{E87B082E-B0AD-4ABE-A228-4C5287F0BD34}.Debug|x86.Build.0 = Debug|x86
+		{E87B082E-B0AD-4ABE-A228-4C5287F0BD34}.Release|x86.ActiveCfg = Release|x86
+		{E87B082E-B0AD-4ABE-A228-4C5287F0BD34}.Release|x86.Build.0 = Release|x86
+>>>>>>> a28a14d6b0af41a5511774f9b914dccd45c9e46b
 	EndGlobalSection
 EndGlobal

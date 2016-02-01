@@ -2,13 +2,20 @@
 <stetic-interface>
   <configuration>
     <images-root-path>..</images-root-path>
+<<<<<<< HEAD
     <target-gtk-version>2.12</target-gtk-version>
+=======
+>>>>>>> a28a14d6b0af41a5511774f9b914dccd45c9e46b
   </configuration>
   <import>
     <widget-library name="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
     <widget-library name="../bin/Debug/PSumaGtk.exe" internal="true" />
   </import>
+<<<<<<< HEAD
   <widget class="Gtk.Window" id="MainWindow" design-size="337 104">
+=======
+  <widget class="Gtk.Window" id="MainWindow" design-size="270 151">
+>>>>>>> a28a14d6b0af41a5511774f9b914dccd45c9e46b
     <property name="MemberName" />
     <property name="Title" translatable="yes">MainWindow</property>
     <property name="WindowPosition">CenterOnParent</property>
@@ -18,14 +25,22 @@
         <property name="MemberName" />
         <property name="Spacing">6</property>
         <child>
+<<<<<<< HEAD
           <widget class="Gtk.HBox" id="hbox4">
+=======
+          <widget class="Gtk.HBox" id="hbox2">
+>>>>>>> a28a14d6b0af41a5511774f9b914dccd45c9e46b
             <property name="MemberName" />
             <property name="Spacing">6</property>
             <child>
               <widget class="Gtk.Label" id="label1">
                 <property name="MemberName" />
+<<<<<<< HEAD
                 <property name="Xalign">1</property>
                 <property name="LabelProp" translatable="yes">1r Numero</property>
+=======
+                <property name="LabelProp" translatable="yes">Numero 1:</property>
+>>>>>>> a28a14d6b0af41a5511774f9b914dccd45c9e46b
               </widget>
               <packing>
                 <property name="Position">0</property>
@@ -35,11 +50,19 @@
               </packing>
             </child>
             <child>
+<<<<<<< HEAD
               <widget class="Gtk.Entry" id="entry1">
                 <property name="MemberName" />
                 <property name="CanFocus">True</property>
                 <property name="IsEditable">True</property>
                 <property name="InvisibleChar">•</property>
+=======
+              <widget class="Gtk.Entry" id="entryNum1">
+                <property name="MemberName" />
+                <property name="CanFocus">True</property>
+                <property name="IsEditable">True</property>
+                <property name="InvisibleChar">●</property>
+>>>>>>> a28a14d6b0af41a5511774f9b914dccd45c9e46b
               </widget>
               <packing>
                 <property name="Position">1</property>
@@ -55,14 +78,22 @@
           </packing>
         </child>
         <child>
+<<<<<<< HEAD
           <widget class="Gtk.HBox" id="hbox5">
+=======
+          <widget class="Gtk.HBox" id="hbox3">
+>>>>>>> a28a14d6b0af41a5511774f9b914dccd45c9e46b
             <property name="MemberName" />
             <property name="Spacing">6</property>
             <child>
               <widget class="Gtk.Label" id="label2">
                 <property name="MemberName" />
+<<<<<<< HEAD
                 <property name="Xalign">1</property>
                 <property name="LabelProp" translatable="yes">2n Numero</property>
+=======
+                <property name="LabelProp" translatable="yes">Numero 2:</property>
+>>>>>>> a28a14d6b0af41a5511774f9b914dccd45c9e46b
               </widget>
               <packing>
                 <property name="Position">0</property>
@@ -72,11 +103,19 @@
               </packing>
             </child>
             <child>
+<<<<<<< HEAD
               <widget class="Gtk.Entry" id="entry2">
                 <property name="MemberName" />
                 <property name="CanFocus">True</property>
                 <property name="IsEditable">True</property>
                 <property name="InvisibleChar">•</property>
+=======
+              <widget class="Gtk.Entry" id="entryNum2">
+                <property name="MemberName" />
+                <property name="CanFocus">True</property>
+                <property name="IsEditable">True</property>
+                <property name="InvisibleChar">●</property>
+>>>>>>> a28a14d6b0af41a5511774f9b914dccd45c9e46b
               </widget>
               <packing>
                 <property name="Position">1</property>
@@ -92,6 +131,7 @@
           </packing>
         </child>
         <child>
+<<<<<<< HEAD
           <widget class="Gtk.HBox" id="hbox6">
             <property name="MemberName" />
             <property name="Spacing">6</property>
@@ -103,6 +143,91 @@
                 <property name="Label" translatable="yes">*</property>
                 <property name="UseUnderline">True</property>
                 <signal name="Clicked" handler="OnButton4ClickedMultiplicar" />
+=======
+          <widget class="Gtk.HBox" id="hbox4">
+            <property name="MemberName" />
+            <property name="Spacing">6</property>
+            <child>
+              <widget class="Gtk.HBox" id="hbox7">
+                <property name="MemberName" />
+                <property name="Spacing">6</property>
+                <child>
+                  <widget class="Gtk.Button" id="buttonSuma">
+                    <property name="MemberName" />
+                    <property name="CanFocus">True</property>
+                    <property name="Type">TextOnly</property>
+                    <property name="Label" translatable="yes">+</property>
+                    <property name="UseUnderline">True</property>
+                    <signal name="Clicked" handler="ButtonClickedSuma" />
+                  </widget>
+                  <packing>
+                    <property name="Position">0</property>
+                    <property name="AutoSize">True</property>
+                    <property name="Expand">False</property>
+                    <property name="Fill">False</property>
+                  </packing>
+                </child>
+                <child>
+                  <widget class="Gtk.Button" id="buttonRestar">
+                    <property name="MemberName" />
+                    <property name="CanFocus">True</property>
+                    <property name="Type">TextOnly</property>
+                    <property name="Label" translatable="yes">-</property>
+                    <property name="UseUnderline">True</property>
+                    <signal name="Clicked" handler="ButtonClickedRestar" />
+                  </widget>
+                  <packing>
+                    <property name="Position">1</property>
+                    <property name="AutoSize">True</property>
+                    <property name="Expand">False</property>
+                    <property name="Fill">False</property>
+                  </packing>
+                </child>
+                <child>
+                  <widget class="Gtk.HBox" id="hbox8">
+                    <property name="MemberName" />
+                    <property name="Spacing">6</property>
+                    <child>
+                      <widget class="Gtk.Button" id="button4">
+                        <property name="MemberName" />
+                        <property name="CanFocus">True</property>
+                        <property name="Type">TextOnly</property>
+                        <property name="Label" translatable="yes">/</property>
+                        <property name="UseUnderline">True</property>
+                        <signal name="Clicked" handler="ButtonClickedDividir" />
+                      </widget>
+                      <packing>
+                        <property name="Position">0</property>
+                        <property name="AutoSize">True</property>
+                        <property name="Expand">False</property>
+                        <property name="Fill">False</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <widget class="Gtk.Button" id="button5">
+                        <property name="MemberName" />
+                        <property name="CanFocus">True</property>
+                        <property name="Type">TextOnly</property>
+                        <property name="Label" translatable="yes">*</property>
+                        <property name="UseUnderline">True</property>
+                        <signal name="Clicked" handler="ButtonClickedMultiplicar" />
+                      </widget>
+                      <packing>
+                        <property name="Position">1</property>
+                        <property name="AutoSize">True</property>
+                        <property name="Expand">False</property>
+                        <property name="Fill">False</property>
+                      </packing>
+                    </child>
+                  </widget>
+                  <packing>
+                    <property name="Position">2</property>
+                    <property name="AutoSize">True</property>
+                    <property name="Expand">False</property>
+                    <property name="Fill">False</property>
+                  </packing>
+                </child>
+>>>>>>> a28a14d6b0af41a5511774f9b914dccd45c9e46b
               </widget>
               <packing>
                 <property name="Position">0</property>
@@ -112,6 +237,7 @@
               </packing>
             </child>
             <child>
+<<<<<<< HEAD
               <widget class="Gtk.Button" id="button3">
                 <property name="MemberName" />
                 <property name="CanFocus">True</property>
@@ -166,6 +292,13 @@
               </widget>
               <packing>
                 <property name="Position">4</property>
+=======
+              <widget class="Gtk.Label" id="labelResult">
+                <property name="MemberName" />
+              </widget>
+              <packing>
+                <property name="Position">1</property>
+>>>>>>> a28a14d6b0af41a5511774f9b914dccd45c9e46b
                 <property name="AutoSize">False</property>
                 <property name="Fill">False</property>
               </packing>
