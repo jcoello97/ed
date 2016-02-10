@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidConcadenar</string>
+    <string name="action_settings">Settings</string>
+    <string name="PrimerNombre">Primer palabra a escribir..</string>
+    <string name="SegundoNombre">Segunda palabra a escribir..</string>
+    <string name="MostarBoton">Mostrar</string>
+</resources>
