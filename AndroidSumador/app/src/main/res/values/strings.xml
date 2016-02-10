@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidSumador</string>
+    <string name="PrimerNumero">Introduce un numero</string>
+    <string name="SegundoNumero">Introduce otro numero</string>
+    <string name="Encabezado">PROGRAMA SUMADOR</string>
+    <string name="SumarBoton">SUMAR</string>
+</resources>
